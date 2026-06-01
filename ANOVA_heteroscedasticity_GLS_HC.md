@@ -34,7 +34,13 @@ car::leveneTest(value ~ group, data=d) # by default uses medians as the centers 
 ##       147                      
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Please check the following statement, if not correct, please make it correct. Plus, its a reqest that for each stat-test, please write whether we need significant result or non-significant results.
+
+If the results are significant, it means that, at least, variance of one group is significantly different than the others.
+The equal variance assumption does not hold. 
 ```
+
 
 # The GLS approach
 ## Fitting a linear model using GLS estimation and setting up the EM-means (for Satterthwaite DF)
